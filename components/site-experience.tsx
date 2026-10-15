@@ -80,7 +80,13 @@ export default function SiteExperience() {
           <div className="journey-sticky">
             <div className="journey-atmosphere" aria-hidden="true" />
             <div className="journey-meta"><span>ALP YAĞIZ PALA</span><span>TED ÜNİVERSİTESİ · BİLGİSAYAR MÜHENDİSLİĞİ</span></div>
-            <div className="journey-mountain" aria-hidden="true"><Image src="/images/alp-ski-film.jpg" alt="" fill priority sizes="(max-width: 700px) 110vw, 58vw" /></div>
+            <div className="journey-mountain" aria-hidden="true">
+              <Image className="journey-summit" src="/images/alp-summit-3d.png" alt="" fill priority sizes="(max-width: 700px) 110vw, 58vw" />
+              <div className="snow-plume-layer">
+                <Image className="snow-plume" src="/images/alp-snow-burst.png" alt="" width={1536} height={1024} priority sizes="(max-width: 700px) 140vw, 90vw" />
+                <div className="snow-particles">{Array.from({ length: 14 }, (_, index) => <i key={index} />)}</div>
+              </div>
+            </div>
             <div className="journey-stack" aria-hidden="true">
               <div className="journey-word journey-word--alp">ALP <small>by</small></div>
               <div className="journey-word journey-word--yagiz">YAĞIZ</div>
