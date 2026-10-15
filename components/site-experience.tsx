@@ -80,7 +80,7 @@ export default function SiteExperience() {
           <div className="journey-sticky">
             <div className="journey-atmosphere" aria-hidden="true" />
             <div className="journey-meta"><span>ALP YAĞIZ PALA</span><span>TED ÜNİVERSİTESİ · BİLGİSAYAR MÜHENDİSLİĞİ</span></div>
-            <div className="journey-mountain" aria-hidden="true"><span /><Image src="/images/alp-summit.webp" alt="" fill priority sizes="(max-width: 700px) 95vw, 58vw" /></div>
+            <div className="journey-mountain" aria-hidden="true"><Image src="/images/alp-ski-film.jpg" alt="" fill priority sizes="(max-width: 700px) 110vw, 58vw" /></div>
             <div className="journey-stack" aria-hidden="true">
               <div className="journey-word journey-word--alp">ALP <small>by</small></div>
               <div className="journey-word journey-word--yagiz">YAĞIZ</div>
@@ -89,7 +89,7 @@ export default function SiteExperience() {
             <h1 className="journey-fullname"><span>ALP</span><span>YAĞIZ</span><span>PALA</span></h1>
             <div className="journey-scroll-cue"><span>AŞAĞI KAYDIR</span><i /></div>
             <a className="journey-next" href="#about"><span>SONRAKİ BÖLÜM</span><i /> KİM OLDUĞUM</a>
-            <div className="journey-side-note">KENDİ YOLUMU<br />İNŞA EDİYORUM <b>↘</b></div>
+            <div className="journey-location"><span>LOCATION · EUROPE</span><strong>ALP MOUNTAINS</strong><small>THE ALPINE RANGE</small></div>
           </div>
         </section>
 
