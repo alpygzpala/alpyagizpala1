@@ -2,12 +2,12 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Alpyagiz Pala — Fikirden etkiye",
+  title: "Alp Yağız Pala — Bilgisayar Mühendisliği",
   description:
-    "Alpyagiz Pala'nın kişisel çalışma alanı. Tasarım, teknoloji ve merakın kesiştiği fikirler.",
+    "Alp Yağız Pala’nın kişisel portfolyosu. TED Üniversitesi Bilgisayar Mühendisliği öğrencisi.",
   openGraph: {
-    title: "Alpyagiz Pala — Fikirden etkiye",
-    description: "Tasarım, teknoloji ve merakın kesiştiği kişisel çalışma alanı.",
+    title: "Alp Yağız Pala — Bilgisayar Mühendisliği",
+    description: "TED Üniversitesi Bilgisayar Mühendisliği öğrencisi Alp Yağız Pala’nın portfolyosu.",
     type: "website",
     locale: "tr_TR",
   },
